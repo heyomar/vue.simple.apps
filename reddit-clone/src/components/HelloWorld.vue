@@ -72,7 +72,7 @@ export default {
       return distanceInWords(parse(date * 1000), new Date());
     },
     isImage(post){
-      
+      return post.data.url.match(/\.(jpg|png|jpeg|bpm)$/)
     }
   }
 };
