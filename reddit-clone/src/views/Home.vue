@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1 class="text-center">Reddit Clone</h1>
+    <h1 class="text-center pt-2">Rare Puppers</h1>
     <HelloWorld/>
   </div>
 </template>
